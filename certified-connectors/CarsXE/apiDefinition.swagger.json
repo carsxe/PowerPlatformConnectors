@@ -2,11 +2,11 @@
   "swagger": "2.0",
   "info": {
     "title": "CarsXE",
-    "description": "Access comprehensive vehicle data including VIN decoding, specifications, market values, license plate recognition, vehicle history, recalls, images, and diagnostic codes for automotive applications.",
+    "description": "Access comprehensive vehicle data from https://carsxe.com including VIN decoding, specifications, market values, license plate recognition, vehicle history, recalls, images, and diagnostic codes for automotive applications.",
     "version": "1.0.0",
     "contact": {
       "name": "CarsXE Support",
-      "url": "https://api.carsxe.com/support",
+      "url": "https://carsxe.com",
       "email": "support@carsxe.com"
     }
   },
@@ -87,7 +87,7 @@
         "operationId": "GetVehicleSpecs",
         "summary": "Get Vehicle Specifications",
         "x-ms-summary": "Decode VIN & Get Full Vehicle Specs",
-        "description": "Decode VIN and retrieve comprehensive vehicle specifications including attributes, colors, equipment, warranties, and deep VIN decode information.",
+        "description": "Decode VIN and retrieve comprehensive vehicle specifications including attributes, colors, equipment, warranties, and deep VIN decode information. See https://carsxe.com/vehicle-specifications.",
         "x-ms-visibility": "important",
         "parameters": [
           {
@@ -648,7 +648,7 @@
         "operationId": "DecodeInternationalVIN",
         "summary": "Decode International VIN",
         "x-ms-summary": "Decode VIN with Worldwide Support",
-        "description": "Decode Vehicle Identification Numbers with worldwide support for international vehicles. Returns comprehensive vehicle data including specifications, dimensions, and technical details.",
+        "description": "Decode Vehicle Identification Numbers with worldwide support for international vehicles. Returns comprehensive vehicle data including specifications, dimensions, and technical details. See https://carsxe.com/international-vin-decoder.",
         "x-ms-visibility": "important",
         "parameters": [
           {
@@ -931,7 +931,7 @@
         "operationId": "GetSafetyRecalls",
         "summary": "Get Safety Recalls",
         "x-ms-summary": "Get Safety Recall Data for VIN",
-        "description": "Retrieve safety recall data and campaign information for a specific vehicle by VIN. Returns NHTSA recall campaigns, affected components, risk descriptions, and remedy information.",
+        "description": "Retrieve safety recall data and campaign information for a specific vehicle by VIN. Returns NHTSA recall campaigns, affected components, risk descriptions, and remedy information. See https://carsxe.com/vehicle-recalls.",
         "x-ms-visibility": "important",
         "parameters": [
           {
@@ -1148,7 +1148,7 @@
         "operationId": "DecodeLicensePlate",
         "summary": "Decode License Plate",
         "x-ms-summary": "Decode License Plate Info",
-        "description": "Decode license plate information by plate number and country. State is required for US, AU, CA, and PK. District is required for Pakistan. Returns vehicle identification details including VIN, make, model, year, color, and specifications.",
+        "description": "Decode license plate information by plate number and country. State is required for US, AU, CA, and PK. District is required for Pakistan. Returns vehicle identification details including VIN, make, model, year, color, and specifications. See https://carsxe.com/vehicle-plate-decoder.",
         "x-ms-visibility": "important",
         "parameters": [
           {
@@ -1319,7 +1319,7 @@
         "operationId": "GetVehicleImages",
         "summary": "Get Vehicle Images",
         "x-ms-summary": "Fetch Vehicle Images by Make & Model",
-        "description": "Fetch vehicle images by make, model, year, trim, color, angle, and other optional parameters. Returns image URLs with metadata including dimensions, thumbnails, and publication dates.",
+        "description": "Fetch vehicle images by make, model, year, trim, color, angle, and other optional parameters. Returns image URLs with metadata including dimensions, thumbnails, and publication dates. See https://carsxe.com/vehicle-images.",
         "x-ms-visibility": "important",
         "parameters": [
           {
@@ -1574,7 +1574,7 @@
         "operationId": "GetMarketValue",
         "summary": "Get Vehicle Market Value",
         "x-ms-summary": "Estimate Vehicle Market Value by VIN",
-        "description": "Estimate vehicle market value based on VIN using millions of historical vehicle sales data. Returns wholesale, retail, trade-in values with condition-based pricing, mileage adjustments, and optional equipment valuations.",
+        "description": "Estimate vehicle market value based on VIN using millions of historical vehicle sales data. Returns wholesale, retail, trade-in values with condition-based pricing, mileage adjustments, and optional equipment valuations. See https://carsxe.com/vehicle-market-value.",
         "x-ms-visibility": "important",
         "parameters": [
           {
@@ -2241,7 +2241,7 @@
         "operationId": "GetVehicleHistory",
         "summary": "Get Vehicle History",
         "x-ms-summary": "Retrieve Complete Vehicle History Report",
-        "description": "Retrieve comprehensive vehicle history including title information, brands, junk and salvage records, insurance records, odometer readings, and ownership history by VIN.",
+        "description": "Retrieve comprehensive vehicle history including title information, brands, junk and salvage records, insurance records, odometer readings, and ownership history by VIN. See https://carsxe.com/vehicle-history.",
         "x-ms-visibility": "important",
         "parameters": [
           {
@@ -2649,7 +2649,7 @@
         "operationId": "RecognizePlateFromImage",
         "summary": "Recognize License Plate from Image",
         "x-ms-summary": "Read & Decode Plates from Images",
-        "description": "Read and decode license plates from images using AI/ML recognition technology. Supports image URLs. Returns detected plate numbers, region codes, confidence scores, and vehicle type with bounding box coordinates.",
+        "description": "Read and decode license plates from images using AI/ML recognition technology. Supports image URLs. Returns detected plate numbers, region codes, confidence scores, and vehicle type with bounding box coordinates. See https://carsxe.com/vehicle-plate-decoder.",
         "x-ms-visibility": "important",
         "consumes": ["application/json"],
         "parameters": [
@@ -2880,7 +2880,7 @@
         "operationId": "ExtractVINFromImage",
         "summary": "Extract VIN from Image",
         "x-ms-summary": "Extract VINs from Images using OCR",
-        "description": "Extract Vehicle Identification Numbers (VINs) from images using Optical Character Recognition (OCR). Supports image URLs. Returns detected VIN with confidence score, bounding box coordinates, and alternative candidates.",
+        "description": "Extract Vehicle Identification Numbers (VINs) from images using Optical Character Recognition (OCR). Supports image URLs. Returns detected VIN with confidence score, bounding box coordinates, and alternative candidates. See https://carsxe.com/international-vin-decoder.",
         "x-ms-visibility": "important",
         "consumes": ["application/json"],
         "parameters": [
@@ -3048,7 +3048,7 @@
         "operationId": "QueryByYearMakeModel",
         "summary": "Query by Year, Make, Model",
         "x-ms-summary": "Query Vehicle by Year, Make, Model & Trim",
-        "description": "Query vehicle information by year, make, model, and optional trim level. Returns comprehensive vehicle details including MSRP, features, colors, dimensions, warranty, and optional packages.",
+        "description": "Query vehicle information by year, make, model, and optional trim level. Returns comprehensive vehicle details including MSRP, features, colors, dimensions, warranty, and optional packages. See https://carsxe.com/vehicle-specifications.",
         "x-ms-visibility": "important",
         "parameters": [
           {
@@ -3418,11 +3418,11 @@
   "x-ms-connector-metadata": [
     {
       "propertyName": "Website",
-      "propertyValue": "https://api.carsxe.com/"
+      "propertyValue": "https://carsxe.com"
     },
     {
       "propertyName": "Privacy policy",
-      "propertyValue": "https://api.carsxe.com/privacy-policy"
+      "propertyValue": "https://carsxe.com/privacy-policy"
     },
     {
       "propertyName": "Categories",

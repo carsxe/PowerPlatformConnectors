@@ -2,6 +2,8 @@
 
 The CarsXE Connector enables users to instantly access powerful automotive data inside Power Automate and Power Apps. With this connector, you can decode VINs, get detailed specs, estimate market value, retrieve vehicle history, access safety recalls, and much more — all through easy, no-code integration. Transform your automotive workflows with comprehensive vehicle intelligence at your fingertips.
 
+Website: [https://carsxe.com](https://carsxe.com)
+
 ## Publisher: CarsXE
 
 ## Prerequisites
@@ -15,34 +17,34 @@ The CarsXE Connector enables users to instantly access powerful automotive data 
 The CarsXE connector provides 11 powerful operations covering comprehensive automotive data retrieval:
 
 ### Get Vehicle Specs
-Decode a VIN and retrieve full vehicle specifications including make, model, year, engine details, transmission, and more. Supports optional deep data for enhanced information.
+Decode a VIN and retrieve full vehicle specifications including make, model, year, engine details, transmission, and more. Supports optional deep data for enhanced information. See [vehicle specifications](https://carsxe.com/vehicle-specifications).
 
 ### Decode International VIN
-Decode Vehicle Identification Numbers with worldwide support for international vehicles, providing comprehensive decoding capabilities beyond standard US VINs.
+Decode Vehicle Identification Numbers with worldwide support for international vehicles, providing comprehensive decoding capabilities beyond standard US VINs. See [international VIN decoder](https://carsxe.com/international-vin-decoder).
 
 ### Decode License Plate
-Decode license plate information by plate number, state, and country. Supports US, Canada, UK, and other international regions with state/province and district refinement options.
+Decode license plate information by plate number, state, and country. Supports US, Canada, UK, and other international regions with state/province and district refinement options. See [vehicle plate decoder](https://carsxe.com/vehicle-plate-decoder).
 
 ### Get Market Value
-Estimate vehicle market value based on VIN, with optional state-specific refinements to provide accurate regional pricing data.
+Estimate vehicle market value based on VIN, with optional state-specific refinements to provide accurate regional pricing data. See [vehicle market value](https://carsxe.com/vehicle-market-value).
 
 ### Get Vehicle History
-Retrieve comprehensive vehicle history including ownership records, accident reports, title information, odometer readings, and service history.
+Retrieve comprehensive vehicle history including ownership records, accident reports, title information, odometer readings, and service history. See [vehicle history](https://carsxe.com/vehicle-history).
 
 ### Get Vehicle Images
-Fetch high-quality vehicle images by make, model, year, and trim. Supports customization options including color, angle, photo type, size, transparent backgrounds, and licensing.
+Fetch high-quality vehicle images by make, model, year, and trim. Supports customization options including color, angle, photo type, size, transparent backgrounds, and licensing. See [vehicle images](https://carsxe.com/vehicle-images).
 
 ### Get Safety Recalls
-Access safety recall data and active campaigns for specific vehicles by VIN, helping ensure vehicle safety compliance.
+Access safety recall data and active campaigns for specific vehicles by VIN, helping ensure vehicle safety compliance. See [vehicle recalls](https://carsxe.com/vehicle-recalls).
 
 ### Plate Image Recognition
-Read and decode license plates from images using advanced OCR (Optical Character Recognition) technology. Simply provide an image URL to extract plate information.
+Read and decode license plates from images using advanced OCR (Optical Character Recognition) technology. Simply provide an image URL to extract plate information. See [vehicle plate decoder](https://carsxe.com/vehicle-plate-decoder).
 
 ### VIN OCR
-Extract Vehicle Identification Numbers from images using OCR technology. Useful for scanning VIN stickers, plates, or documents.
+Extract Vehicle Identification Numbers from images using OCR technology. Useful for scanning VIN stickers, plates, or documents. See [international VIN decoder](https://carsxe.com/international-vin-decoder).
 
 ### Year Make Model Query
-Query detailed vehicle information by specifying year, make, model, and optionally trim level. Perfect for building vehicle selection workflows.
+Query detailed vehicle information by specifying year, make, model, and optionally trim level. Perfect for building vehicle selection workflows. See [vehicle specifications](https://carsxe.com/vehicle-specifications).
 
 ### OBD Codes Decoder
 Decode OBD (On-Board Diagnostics) error and diagnostic codes to understand vehicle issues and maintenance requirements.
@@ -51,7 +53,7 @@ Decode OBD (On-Board Diagnostics) error and diagnostic codes to understand vehic
 
 This connector uses **API Key** authentication.
 
-1. Visit the CarsXE website at [https://api.carsxe.com](https://api.carsxe.com)
+1. Visit the CarsXE website at [https://carsxe.com](https://carsxe.com)
 2. Sign up for an account or log in to your existing account
 3. Navigate to the Developer Dashboard at [https://api.carsxe.com/dashboard/developer](https://api.carsxe.com/dashboard/developer)
 4. Generate or copy your API key
@@ -127,7 +129,7 @@ Yes, the International VIN Decoder operation supports worldwide vehicle decoding
 Standard web image formats (JPEG, PNG) accessed via public URLs are supported. Ensure images are clear, well-lit, and high-resolution for optimal OCR accuracy.
 
 ### Are there any costs associated with using this connector?
-The connector itself is free to use, but you need an active CarsXE API subscription. API usage is billed according to your CarsXE plan. Check [https://api.carsxe.com](https://api.carsxe.com) for pricing details.
+The connector itself is free to use, but you need an active CarsXE API subscription. API usage is billed according to your CarsXE plan. Check [https://carsxe.com](https://carsxe.com) for pricing details.
 
 ## Deployment Instructions
 
@@ -181,6 +183,14 @@ After deployment, verify the connector works correctly:
 **Need Help?** Visit the [CarsXE API Documentation](https://api.carsxe.com/docs) or contact support through your dashboard at [https://api.carsxe.com/dashboard](https://api.carsxe.com/dashboard).
 
 **Links:**
-- **Website**: [https://api.carsxe.com](https://api.carsxe.com)
+- **Website**: [https://carsxe.com](https://carsxe.com)
+- **Vehicle history**: [https://carsxe.com/vehicle-history](https://carsxe.com/vehicle-history)
+- **Plate decoder**: [https://carsxe.com/vehicle-plate-decoder](https://carsxe.com/vehicle-plate-decoder)
+- **Vehicle specifications**: [https://carsxe.com/vehicle-specifications](https://carsxe.com/vehicle-specifications)
+- **International VIN decoder**: [https://carsxe.com/international-vin-decoder](https://carsxe.com/international-vin-decoder)
+- **Vehicle images**: [https://carsxe.com/vehicle-images](https://carsxe.com/vehicle-images)
+- **Vehicle recalls**: [https://carsxe.com/vehicle-recalls](https://carsxe.com/vehicle-recalls)
+- **Market value**: [https://carsxe.com/vehicle-market-value](https://carsxe.com/vehicle-market-value)
+- **Privacy policy**: [https://carsxe.com/privacy-policy](https://carsxe.com/privacy-policy)
 - **API Documentation**: [https://api.carsxe.com/docs](https://api.carsxe.com/docs)
 - **Developer Dashboard**: [https://api.carsxe.com/dashboard/developer](https://api.carsxe.com/dashboard/developer)
