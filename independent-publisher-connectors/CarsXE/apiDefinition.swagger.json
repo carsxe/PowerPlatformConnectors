@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "CarsXE",
-    "description": "CarsXE provides vehicle specs, market value, license plate decoding, history and image search. Get robust vehicle specification data on selections, attributes, equipment, colors, recalls, warranties, and photos.",
+    "description": "CarsXE (https://carsxe.com) provides vehicle specs, market value, license plate decoding, history and image search. Get robust vehicle specification data on selections, attributes, equipment, colors, recalls, warranties, and photos.",
     "version": "1.0",
     "contact": {
       "name": "Troy Taylor",
@@ -973,7 +973,7 @@
           }
         },
         "summary": "Get vehicle specifications",
-        "description": "Retrieve data including attributes, color options, equipment details, recall information, warranties, and photos.",
+        "description": "Retrieve data including attributes, color options, equipment details, recall information, warranties, and photos. See https://carsxe.com/vehicle-specifications and https://carsxe.com/vehicle-recalls.",
         "operationId": "SpecGet",
         "parameters": [
           {
@@ -1143,7 +1143,7 @@
           }
         },
         "summary": "Get vehicle market value",
-        "description": "Retrieves estimate of the market value for used and new cars by VIN based on millions of historical vehicle sales stored in CarsXE's sales database.",
+        "description": "Retrieves estimate of the market value for used and new cars by VIN based on millions of historical vehicle sales stored in CarsXE's sales database. See https://carsxe.com/vehicle-market-value.",
         "operationId": "ValueGet",
         "parameters": [
           {
@@ -1546,7 +1546,7 @@
           }
         },
         "summary": "Get complete vehicle history",
-        "description": "Retrieve a comprehensive set of history records for used and new cars by VIN based on millions of historical vehicle sales stored in CarsXE's sales database.",
+        "description": "Retrieve a comprehensive set of history records for used and new cars by VIN based on millions of historical vehicle sales stored in CarsXE's sales database. See https://carsxe.com/vehicle-history.",
         "operationId": "HistoryGet",
         "parameters": [
           {
@@ -1678,7 +1678,7 @@
           }
         ],
         "summary": "Decode a vehicle plate",
-        "description": "Retrieves a library of vehicle's data based on the vehicle's registration/license plate number and state. The state is a two letter abbreviation, with international support also for Australia, Brazil, United Kingdom, Ireland, Italy, Spain, India, Mexico and New Zealand.",
+        "description": "Retrieves a library of vehicle's data based on the vehicle's registration/license plate number and state. The state is a two letter abbreviation, with international support also for Australia, Brazil, United Kingdom, Ireland, Italy, Spain, India, Mexico and New Zealand. See https://carsxe.com/vehicle-plate-decoder.",
         "operationId": "PlateDecode"
       }
     },
@@ -1916,7 +1916,7 @@
             ]
           }
         ],
-        "description": "Retrieves photos of vehicles based on their make and model, plus other optional parameters",
+        "description": "Retrieves photos of vehicles based on their make and model, plus other optional parameters. See https://carsxe.com/vehicle-images.",
         "operationId": "ImageGet"
       }
     },
@@ -2089,7 +2089,7 @@
             }
           }
         ],
-        "description": "Retrieves accurate recognition of license plates from images, based on training from license plates from over 100 countries and states.",
+        "description": "Retrieves accurate recognition of license plates from images, based on training from license plates from over 100 countries and states. See https://carsxe.com/vehicle-plate-decoder.",
         "operationId": "PlateRecog"
       }
     },
@@ -2156,11 +2156,11 @@
   "x-ms-connector-metadata": [
     {
       "propertyName": "Website",
-      "propertyValue": "https://api.carsxe.com/"
+      "propertyValue": "https://carsxe.com"
     },
     {
       "propertyName": "Privacy policy",
-      "propertyValue": "https://api.carsxe.com/privacy-policy"
+      "propertyValue": "https://carsxe.com/privacy-policy"
     },
     {
       "propertyName": "Categories",
